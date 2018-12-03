@@ -1,4 +1,9 @@
 /* GLOBAL STYLES */
+html {
+	box-shadow: 0 0 0 30px #000 inset;
+	padding: 0 30px;
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -27,12 +32,16 @@ a {
 .header {
   background-color: #000;
   color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 20;
 }
 .header-logo {
   background-color: #000;
   box-sizing: border-box;
   display: block;
   height: 10vh;
+  left: -25px;
   padding-top: 10px;
   position: relative;
   text-align: center;
@@ -104,11 +113,18 @@ a {
   vertical-align: middle;
   width: 2.5em;
 }
+
+.social-link:hover,
+.social-link:active {
+	color:#ffcc00;
+}
+
 .social-list {
   list-style: none;
   padding: 0;
   text-align: center;
 }
+
 .social-list > li {
   display: inline-block;
   margin: 0 0.5em;
