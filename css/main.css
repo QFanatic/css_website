@@ -45,7 +45,7 @@ h2 ~ p {
   box-sizing: border-box;
   display: block;
   height: 10vh;
-  left: -25px;
+  left: -30px;
   padding-top: 10px;
   position: relative;
   text-align: center;
@@ -87,8 +87,6 @@ h2 ~ p {
 .header-nav > li:first-child a:hover {
   color: #fff;
 }
-
-
 .nav-links a:hover,
 .nav-links a:active {
   color: #ed6e2f;
